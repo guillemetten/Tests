@@ -1,0 +1,25 @@
+13:43:03.110 INFO      Engine           Test Scenario execution started
+13:43:03.117 INFO      Engine           Using context settings:
+  Engine Version                : 20.10.1.v20220314-0254_88
+  Environment id                : 6242195f9138f23d3ccb6f59
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 300
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : IMINGG0
+  Use Repository Server         : true
+13:43:03.120 INFO      Engine           Setting variables from context and context data extensions
+13:43:03.126 INFO      Engine             id: environmentId      value: 6242195f9138f23d3ccb6f59
+13:43:03.131 INFO      Engine             id: environmentType    value: BATCH
+13:43:03.134 INFO      Engine             id: userId             value: IMINGG0
+13:43:03.137 INFO      Engine             id: accountingInfo     value: 
+13:43:03.145 INFO      SQLSelect        Interpreting SQLSelect id:id statement: SELECT FIRST_LAST_NAME FROM SALESSUP.FTS_DEMOTAB
+13:43:03.157 INFO      SQLSelect        Using database from Environment:DSCCCWCC
+13:43:04.919 INFO      SQLSelect        Finished SQLSelect. Number of rows selected:7
+13:43:04.921 INFO      Engine           Test Scenario execution ended

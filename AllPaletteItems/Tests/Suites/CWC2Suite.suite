@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="CWC2Suite" haltAtFailure="false">
+  <Description />
+  <XaUnits>
+    <Path>../Scenarios/Data Export/Scenarios/DataExport.scenario</Path>
+    <Path>../Scenarios/JobSubmit/VerifyAbend.scenario</Path>
+    <Path>../Scenarios/REST Service/Scenarios/RESTService.scenario</Path>
+    <Path>../Scenarios/Read Dataset/Scenarios/ReadDataset.scenario</Path>
+    <Path>../Scenarios/Read Records/Scenarios/ReadRecords.scenario</Path>
+    <Path>../Scenarios/Read Spool File/Scenarios/ReadSpoolFile.scenario</Path>
+    <Path>../Scenarios/Soap Service/Scenarios/SoapService.scenario</Path>
+    <Path>../Scenarios/Verify Dataset/Scenarios/VerifyDataset.scenario</Path>
+  </XaUnits>
+</XaSuite>

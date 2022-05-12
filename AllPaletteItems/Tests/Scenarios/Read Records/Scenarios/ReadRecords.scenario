@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+  <Test>
+    <ReadRemoteFile fileName="IMINGG0.TESTDATA.VERFILE2" id="noid" label="" firstRecord="1" numberRecords="10" mDataDefinitionName="recordlayout" />
+  </Test>
+  <MetaData>
+    <MDataDefinition name="recordlayout">
+      <XACARTEST native="01 XACARTEST.">
+        <CARID type="NumericBinary" length="9" bytes="4" native="10 CARID PIC S9(9) USAGE COMP." signed="true" decimals="0" signsep="false" signpos="" />
+        <MODELID type="NumericBinary" length="9" bytes="4" native="10 MODELID PIC S9(9) USAGE COMP." signed="true" decimals="0" signsep="false" signpos="" />
+        <CARMAKER type="Character" length="28" bytes="28" native="10 CARMAKER PIC X(28)." />
+        <MODELNAME type="Character" length="28" bytes="28" native="10 MODELNAME PIC X(28)." />
+        <PRICE type="NumericBinary" length="9" bytes="4" native="10 PRICE PIC S9(9) USAGE COMP." signed="true" decimals="0" signsep="false" signpos="" />
+        <BHP type="NumericBinary" length="4" bytes="2" native="10 BHP PIC S9(4) USAGE COMP." signed="true" decimals="0" signsep="false" signpos="" />
+        <ACCEL type="NumericPacked" length="3" bytes="3" native="10 ACCEL PIC S9(3)V9(2) USAGE COMP-3." signed="true" decimals="2" signsep="false" signpos="" />
+        <TOPSPEED type="NumericBinary" length="4" bytes="2" native="10 TOPSPEED PIC S9(4) USAGE COMP." signed="true" decimals="0" signsep="false" signpos="" />
+        <TSTMP type="Character" length="26" bytes="26" native="10 TSTMP PIC X(26)." />
+        <USER type="Character" length="8" bytes="8" native="10 USER PIC X(8)." />
+        <ROWSTATE type="Character" length="1" bytes="1" native="10 ROWSTATE PIC X(1)." />
+      </XACARTEST>
+    </MDataDefinition>
+  </MetaData>
+</XaUnit>

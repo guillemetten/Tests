@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="6242195f9138f23d3ccb6f59" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="true">
+  <ExtensionData />
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false" path="CWC2Suite.suite">
+    <Test>
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Data Export/Scenarios/DataExport.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/JobSubmit/VerifyAbend.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/REST Service/Scenarios/RESTService.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Read Dataset/Scenarios/ReadDataset.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Read Records/Scenarios/ReadRecords.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Read Spool File/Scenarios/ReadSpoolFile.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Soap Service/Scenarios/SoapService.scenario" />
+      <SubScript filePath="C:/Users/nguillem/Compuware/Workbench/20.10.01/AllPaletteItems/Tests/Scenarios/Verify Dataset/Scenarios/VerifyDataset.scenario" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>
