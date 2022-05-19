@@ -1,0 +1,39 @@
+10:22:29.201 INFO      TOPAZ            ***************************************
+10:22:29.202 INFO      TOPAZ            ** Execution from Topaz with options **
+10:22:29.202 INFO      TOPAZ            ***************************************
+10:22:29.203 INFO      TOPAZ            Using repository: false
+10:22:29.203 INFO      TOPAZ            ***************************************
+10:22:29.204 INFO      Engine           Test Scenario execution started
+10:22:29.205 INFO      Engine           Using context settings:
+  Engine Version                : 20.10.1.v20220314-0254_88
+  Environment id                : 192.168.96.142:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.142
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : IMINGG0
+  Use Repository Server         : false
+10:22:29.206 INFO      Engine           Setting variables from context and context data extensions
+10:22:29.206 INFO      Engine             id: environmentId      value: 192.168.96.142:16196
+10:22:29.206 INFO      Engine             id: environmentType    value: BATCH
+10:22:29.206 INFO      Engine             id: userId             value: IMINGG0
+10:22:29.207 INFO      Engine             id: accountingInfo     value: 
+10:22:29.208 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+10:22:29.371 INFO      Unittest         Using JCL skeleton to submit JCL
+10:22:33.963 INFO      CWC2:16196       Sending Job execution request to Host 
+10:22:39.219 INFO      CWC2:16196       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job IMINGG0A(J0269490) ended with return code: 0000
+  Job name       : IMINGG0A
+  Job id         : J0269490
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:22:41.505 INFO      Unittest         Execution completed
+10:22:41.506 INFO      Engine           Test Scenario execution ended
