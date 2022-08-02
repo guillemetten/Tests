@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.10.1.v20220314-0254_88?>
-<!--Topaz for Total Test 20.10.1.v20220314-0254_88 May 13, 2022 10:22:41 AM-->
-<testsuites>
-  <testsuite name="CWKTDB2X_Scenario" errors="0" tests="1" failures="0">
-    <testcase classname="CWKTDB2X_Scenario" name="Unit Test: Test Case: CWKTDB2XCase1 for program: CWKTDB2X" />
-  </testsuite>
-</testsuites>

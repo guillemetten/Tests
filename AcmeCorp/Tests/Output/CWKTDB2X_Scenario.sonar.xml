@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.10.1.v20220314-0254_88?>
-<!--Topaz for Total Test 20.10.1.v20220314-0254_88 May 13, 2022 10:22:41 AM-->
-<testExecutions version="1">
-  <file path="C:\Users\nguillem\Compuware\Workbench\20.10.01\AcmeCorp\Tests\Scenarios\CWKTDB2X_Scenario.testscenario">
-    <testCase name="Unit Test: Test Case: CWKTDB2XCase1 for program: CWKTDB2X" duration="0" />
-  </file>
-</testExecutions>
