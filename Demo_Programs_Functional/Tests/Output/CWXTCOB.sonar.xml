@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.11.1.v20220621-1502_94?>
+<!--Topaz for Total Test 20.11.1.v20220621-1502_94 Aug 3, 2022 4:11:46 PM-->
+<testExecutions version="1">
+  <file path="C:\Users\nguillem\Compuware\Workbench\Git\git\Tests\Demo_Programs_Functional\Tests\Scenarios\CWXTCOB.scenario">
+    <testCase name="Functional Test: CWXTCOB" duration="0" />
+    <testCase name="Verify: Verify" duration="0">
+      <failure message="The Verify expression was evaluated to false">The Verify expression was evaluated to false
+Expression:
+anId[19] == "tst"</failure>
+    </testCase>
+  </file>
+</testExecutions>

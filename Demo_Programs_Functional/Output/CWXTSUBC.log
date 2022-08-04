@@ -1,0 +1,47 @@
+14:00:49.678 INFO      TOPAZ            ***************************************
+14:00:49.678 INFO      TOPAZ            ** Execution from Topaz with options **
+14:00:49.679 INFO      TOPAZ            ***************************************
+14:00:49.679 INFO      TOPAZ            Using repository: true
+14:00:49.679 INFO      TOPAZ            Repository URL: http://cwcc.nasa.cpwr.corp:2020/totaltestapi/
+14:00:49.679 INFO      TOPAZ            ***************************************
+14:00:49.680 INFO      Engine           Test Scenario execution started
+14:00:49.680 INFO      Engine           Using context settings:
+  Engine Version                : 20.11.1.v20220621-1502_94
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : IMINGG0
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+14:00:49.680 INFO      Engine           Setting variables from context and context data extensions
+14:00:49.680 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+14:00:49.681 INFO      Engine             id: environmentType    value: BATCH
+14:00:49.681 INFO      Engine             id: userId             value: IMINGG0
+14:00:49.681 INFO      Engine             id: accountingInfo     value: 
+14:00:49.681 INFO      Engine             id: datasetHQL         value: 
+14:00:49.682 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+14:00:49.683 INFO      CWCC Batch       Sending Module execution request to Host for module:CWXTSUBC rollback:false
+14:00:49.907 INFO      HCIClient        Creating job directory /u/xatester/imingg0/a8e65a12cc8f4a198270999f48aec8af
+14:00:51.553 INFO      HCIClient        Job has been started at host with JobId:J0294438
+14:00:57.264 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job IMINGG0E(J0294438) ended with return code: 0000
+  Job name       : IMINGG0E
+  Job id         : J0294438
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+14:00:57.564 INFO      CWCC Batch       Component completed with program exit: +0
+14:00:57.898 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+14:00:57.921 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+14:00:57.921 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+14:00:57.922 INFO      Engine           Test Scenario execution ended

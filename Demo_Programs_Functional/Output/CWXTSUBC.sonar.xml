@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.11.1.v20220621-1502_94?>
+<!--Topaz for Total Test 20.11.1.v20220621-1502_94 Aug 4, 2022 2:00:57 PM-->
+<testExecutions version="1">
+  <file path="C:\Users\nguillem\Compuware\Workbench\Git\git\Tests\Demo_Programs_Functional\Scenarios\CWXTSUBC.scenario">
+    <testCase name="Functional Test: CWXTSUBC" duration="0" />
+  </file>
+</testExecutions>
