@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.11.1.v20220621-1502_94?>
+<!--Topaz for Total Test 20.11.1.v20220621-1502_94 Aug 3, 2022 4:11:46 PM-->
+<testsuites>
+  <testsuite name="CWXTCOB" errors="0" tests="2" failures="1">
+    <testcase classname="CWXTCOB" name="Functional Test: CWXTCOB" />
+    <testcase classname="CWXTCOB" name="Verify: Verify">
+      <failure>The Verify expression was evaluated to false
+Expression:
+anId[19] == "tst"</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
