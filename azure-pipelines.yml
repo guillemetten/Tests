@@ -6,7 +6,7 @@ pool:
 variables:
 - group: 'mainframe-pipeline-parameters'
 - name: 'gitRepo'
-  value: 'FTSDEMO_$(ispwApplication)_Unit_Tests'
+  value: 'Tests'
 - name: 'ccSystem'
   value: 'AZURE_$(ispwContainerName)'
 - name: 'ccDdio'
