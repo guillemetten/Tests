@@ -12,7 +12,7 @@ variables:
 - name: 'ccDdio'
   value: 'SALESSUP.$(ispwApplication).$(ispwLevel).LOAD.SSD'
 - name: 'sonarProjectName'
-  value: 'RNU_$(ispwApplication)_Azure'
+  value: 'Nick_Pipeline_Demo'
 - name: 'sonarSources'
   value: '.\$(ispwApplication)\MF_Source'
 
