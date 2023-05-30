@@ -23,17 +23,7 @@ stages:
   - job: getAssets
     displayName: Get Assets from Mainframe and GitHub
     steps:
-    # After promote ISPW passes the DEV level name, we need the QA level name, though
-    # Determine QA level name from DEV level name and create a new pipeline variable
-    - task: PowerShell@2
-      displayName: Determine ISPW Target Level
-      name: setTargetLevel
-      inputs:
-        targetType: 'inline'
-        script: |
-          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
-          Write-Host 'Determined Level ' $ispwTargetLevel
-          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
+
     # Execute Powershell Script to clear Workspace
     - task: PowerShell@2
       displayName: Clear Workspace
