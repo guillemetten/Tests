@@ -56,14 +56,14 @@ stages:
       displayName: Execute Unit Tests
       inputs:
         filePath: '$(agentScriptsPath)\TTT_Run_Virtualized_Tests.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ispwLevel) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(cesUri) $(ispwApplication) $(ispwLevel) $(testFolder) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
 
     # Execute Powershell Script to download Code Coverage results
     - task: PowerShell@2
       displayName: Get Code Coverage Results
       inputs:
         filePath: '$(agentScriptsPath)\Code_Coverage_Download_Metrics.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(cesUri) $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
 
 - stage: qualityGate
   displayName: Quality Gate
