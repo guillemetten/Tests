@@ -56,7 +56,7 @@ stages:
       displayName: Execute Unit Tests
       inputs:
         filePath: '$(agentScriptsPath)\TTT_Run_Virtualized_Tests.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(cesUri) $(ispwApplication) $(ispwLevel) $(testFolder) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
+        arguments: '$(workspaceRoot) $(tttEnvironment) $(hostUser) $(hostPassword) $(hostCodePage) $(cesUri) $(ispwApplication) $(ispwLevel) $(testFolder) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
 
     # Execute Powershell Script to download Code Coverage results
     - task: PowerShell@2
