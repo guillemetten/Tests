@@ -1,0 +1,47 @@
+10:36:22.365 INFO      Total Test       ***************************************
+10:36:22.365 INFO      Total Test       ** Execution from Topaz with options **
+10:36:22.365 INFO      Total Test       ***************************************
+10:36:22.365 INFO      Total Test       Using repository: true
+10:36:22.366 INFO      Total Test       Repository URL: http://cwc2.bmc.com:2020/totaltestapi/
+10:36:22.366 INFO      Total Test       ***************************************
+10:36:22.368 INFO      Engine           Test Scenario execution started
+10:36:22.369 INFO      Engine           Using context settings:
+  Engine Version                : 23.2.1.v20240108-1541_122
+  Environment id                : 5c519facfba8720a90ccc645
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwc2.bmc.com
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : IMINGG0
+  Use Repository Server         : true
+  Account Information           : 
+  Dataset High Level Qualifier  : 
+10:36:22.369 INFO      Engine           Setting variables from context and context data extensions
+10:36:22.369 INFO      Engine             id: environmentId      value: 5c519facfba8720a90ccc645
+10:36:22.370 INFO      Engine             id: environmentType    value: BATCH
+10:36:22.370 INFO      Engine             id: userId             value: IMINGG0
+10:36:22.370 INFO      Engine             id: accountingInfo     value: 
+10:36:22.370 INFO      Engine             id: datasetHQL         value: 
+10:36:22.371 INFO      Component        Interpreting Component: CWXTSUBC program:CWXTSUBC
+10:36:23.070 INFO      TEST DRIVE - Batch Sending Module execution request to Host for module:CWXTSUBC rollback:false
+10:36:23.135 INFO      HCIClient        Creating job directory /u/xatester/imingg0/6ac797e0a40e4fd68f19ff0f0d61e532
+10:36:24.130 INFO      HCIClient        Job has been started at host with JobId:J0450945
+10:36:29.404 INFO      TEST DRIVE - Batch Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job IMINGG0E(J0450945) ended with return code: 0000
+  Job name       : IMINGG0E
+  Job id         : J0450945
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:36:29.536 INFO      TEST DRIVE - Batch Component completed with program exit: +0
+10:36:29.676 INFO      Component        Verifying program exit code: 0 against verify expression: value < 8
+10:36:30.103 INFO      Component        Program exit code was verified to be accepted by the expression: value < 8
+10:36:30.103 INFO      Component        Finished interpreting Component: CWXTSUBC program:CWXTSUBC
+10:36:30.106 INFO      Engine           Test Scenario execution ended
